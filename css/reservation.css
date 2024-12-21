@@ -1,0 +1,199 @@
+* {
+    font-family: poppins;
+}
+
+/* top section  */
+.top-section {
+    background-image: url("../images/menu_img1.jpg");
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    z-index: -1;
+}
+
+.top-section::before {
+    background: #010101;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0.8;
+
+}
+
+.top-h2 {
+    position: relative;
+}
+
+.top-heading {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-top: 16rem;
+    text-align: center;
+
+}
+
+/* reservation section  */
+
+#reservation-section {
+    text-align: center;
+    padding: 3rem;
+}
+
+.reservation-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 3rem;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.reservation-subheading {
+    margin-bottom: 3rem;
+    font-size: 1rem;
+
+}
+
+/* form  */
+.form {
+    display: inline-block;
+    margin: 0 4rem;
+    text-align: left;
+}
+
+.form-heading {
+    font-size: 1rem;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    padding: 1.5rem 0;
+}
+
+.form-input {
+    font-size: 16px;
+    font-weight: bold;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    width: 35rem;
+    height: 3.5rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #cccccc;
+
+}
+.form-section input:focus{
+    outline: burlywood;
+    border: 1px solid burlywood;
+}
+.form-section select:focus{
+    outline: burlywood;
+    border: 1px solid burlywood;
+}
+
+.book-btn {
+    margin-top: 3rem;
+    color: #deb887;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 2.5rem;
+    background-color: #fff;
+    border: 2px solid #deb887;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.book-btn:hover {
+    background-color: #deb887;
+    color: #fff;
+}
+
+
+/* media query mobile */
+@media only screen and (max-width: 480px) {
+    
+    .top-section {
+        background-image: url("../images/menu_img1.jpg");
+        background-size: cover;
+        height: 250px;
+        position: relative;
+        z-index: -1;
+    }
+
+    .top-heading {
+        color: #fff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        padding-top: 6.5rem;
+        text-align: center;
+    }
+
+    /* --- */
+
+    /* reservation section  */
+
+#reservation-section {
+    text-align: center;
+    padding: 1rem;
+}
+
+.reservation-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 3rem;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.reservation-subheading {
+    margin-bottom: 3rem;
+    font-size: 1rem;
+
+}
+
+/* form  */
+.form {
+    display: inline-block;
+    margin: 4px;
+    text-align: left;
+}
+
+.form-heading {
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+.form-input {
+    font-size: 16px;
+    font-weight: bold;
+    width: 15rem;
+    height: 3.5rem;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #cccccc;
+
+}
+.form-section input:focus{
+    outline: burlywood;
+    border: 1px solid burlywood;
+}
+.form-section select:focus{
+    outline: burlywood;
+    border: 1px solid burlywood;
+}
+
+.book-btn {
+    margin-top: 3rem;
+    color: #deb887;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 2.5rem;
+    background-color: #fff;
+    border: 2px solid #deb887;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.book-btn:hover {
+    background-color: #deb887;
+    color: #fff;
+}
+
+
+}
+
