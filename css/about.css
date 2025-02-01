@@ -1,10 +1,9 @@
 
-/* top section  */
+
 .top-section {
     background-image: url(../images/menu_img1.jpg);
     background-size: cover;
     height: 450px;
-    /* background-attachment: fixed; */
     position: relative;
     z-index: -1;
 }
@@ -39,7 +38,6 @@
         background-image: url(../images/menu_img1.jpg);
         background-size: cover;
         height: 250px;
-        /* background-attachment: fixed; */
         position: relative;
         z-index: -1;
     }

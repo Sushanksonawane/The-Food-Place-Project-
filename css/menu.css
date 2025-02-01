@@ -1,4 +1,4 @@
-/* top section  */
+
 .top-section {
     background-image: url("images/menu_img1.jpg");
     background-size: cover;
@@ -33,22 +33,14 @@
 
 }
 
-/* menu section  */
-
-
-/* media query  */
-
-
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
-    /* top section  */
+
     .top-section {
         background-image: url("images/menu_img1.jpg");
         background-size: cover;
         height: 30px;
-        /* background-attachment: fixed; */
         position: relative;
-        /* z-index: -1; */
     }
 
     .top-section::before {

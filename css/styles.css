@@ -18,8 +18,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* header part start */
-/* navigation */
 
 .navbar {
     display: flex;
@@ -29,7 +27,7 @@ body {
     position: fixed;
     width: 100%;
     height: 82px;
-    /* z-index: 10; */
+    z-index: 10;
 }
 
 .dropdown {
@@ -39,7 +37,6 @@ body {
 
 .dropdown .link {
     font-size: 1rem;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     padding: 0.6rem 1.3rem;
     background: transparent;
     border: none;
@@ -62,15 +59,14 @@ body {
 
 .dropdown:hover .sub-link {
     display: block;
-    /* border-radius: 5px; */
 }
 
-/* .dropdown .link:hover,
+.dropdown .link:hover,
 .sub-link:hover {
     background-color: #deb887;
     color: #fff;
     border-radius: 5px;
-} */
+}
 
 .dropdown i {
     padding: 0px;
@@ -112,27 +108,11 @@ body {
     border-radius: 5px;
 }
 
-.active a {
-    color: #fff;
-}
 
-.active a:link {
-    background: #deb887;
-    padding: 9.6px 20.8px;
-    border-radius: 5px;
-    text-decoration: none;
-}
 
 .nav-toggle-label {
     display: none;
 }
-
-/* header part end */
-
-/* main part start */
-
-
-/* intro  */
 
 .intro {
     background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)), url("../images/Bg_2.jpg");
@@ -153,7 +133,6 @@ body {
 .intro-info {
     margin-top: 1.6rem;
     font-size: 1.1rem;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     margin-inline: auto;
     inline-size: 550px;
     line-height: 28px;
@@ -162,7 +141,6 @@ body {
 .reserv {
     display: inline-block;
     margin: auto;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     border: 3px solid burlywood;
     border-radius: 4px;
     padding: 15px 0;
@@ -183,9 +161,7 @@ body {
     padding: 15px 56px;
 }
 
-/* story section */
 
-/* mid section */
 #story-section {
     width: 100%;
 
@@ -227,20 +203,17 @@ body {
 .story-subheading {
     font-size: 1rem;
     line-height: 50px;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .story-p {
     font-size: 1rem;
     line-height: 30px;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .story a {
     color: black;
 }
 
-/* quote */
 .quote-section {
     height: 19rem;
     background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)), url("../images/Bg_5.jpg");
@@ -268,7 +241,6 @@ body {
     margin-bottom: 5rem;
 }
 
-/* menu section  */
 
 #menu-section {
     text-align: center;
@@ -287,7 +259,6 @@ body {
     font-size: 1rem;
 }
 
-/* new try start */
 
 .menu-border {
     display: flex;
@@ -313,7 +284,6 @@ body {
     color: #fff;
 }
 
-/* new try end */
 
 .menu-nav ul {
     margin-inline: auto;
@@ -324,10 +294,6 @@ body {
     padding: 10px;
 }
 
-.active-menu {
-    background-color: #deb887;
-    color: #fff;
-}
 
 .menu-items {
     padding: 1.5% 6%;
@@ -403,7 +369,6 @@ body {
     padding: 0.5rem 2rem 1rem 0.8rem;
 }
 
-/* Gallery */
 #gallery-section {
     text-align: center;
 }
@@ -417,12 +382,14 @@ body {
     height: 250px;
     width: 350px;
     margin: 1.5rem 1rem;
+   
     
 }
 
 .gallery-img:hover {
     transform: scale(1.1);
     transition: 0.5s;
+    
     
 }
 
@@ -446,14 +413,12 @@ body {
 }
 
 .customer-subheading {
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     margin-top: 0.8rem;
     font-size: 0.9rem;
 }
 
 .customer-review {
     font-size: 0.8rem;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     margin-top: 2rem;
     line-height: 25px;
 }
@@ -569,7 +534,6 @@ body {
 }
 
 
-/* Media Query Mobile View */
 @media only screen and (max-width: 480px) {
 
     .navbar {
@@ -807,7 +771,6 @@ body {
 
 
 
-/* media query tablet view */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
     .navbar {
@@ -954,9 +917,7 @@ body {
         padding-bottom: 1.5rem;
     }
 
-    /* .gallery {
-        padding: 0;
-    } */
+    
 
     .gallery-img {
         width: 70%;
@@ -1037,7 +998,6 @@ body {
 
 
 
-/* media query tablet/laptop view */
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
 
 
@@ -1066,10 +1026,7 @@ body {
         line-height: 18px;
     }
 
-    /* .heading {
-        font-size: 1.25rem;
-    } */
-
+    
     .subheading {
         font-size: 0.8rem;
         padding: 0 1.5rem;
@@ -1142,8 +1099,6 @@ body {
         margin: 0rem 2rem 0.5rem 1rem;
         padding-bottom: 1.5rem;
     }
-
-
 
     .gallery-img {
         width: 70%;

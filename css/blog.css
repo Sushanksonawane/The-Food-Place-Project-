@@ -1,6 +1,6 @@
 
 
-/* top section  */
+
 .top-section {
     background-image: url("../images/menu_img1.jpg");
     background-size: cover;
@@ -41,7 +41,7 @@
 .subheading {
     margin-bottom: 3rem;
     font-size: 0.8rem;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+   
 }
 
 #blog-section {

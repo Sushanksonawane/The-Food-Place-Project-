@@ -1,4 +1,4 @@
-/* top section  */
+
 .top-section {
     background-image: url("../images/menu_img1.jpg");
     background-size: cover;
@@ -39,7 +39,7 @@
 .subheading {
     margin-bottom: 3rem;
     font-size: 1rem;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+ 
 }
 
 #blog-section {
@@ -107,13 +107,11 @@
 .main-content p {
     font-size: 0.9rem;
     line-height: 28px;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     margin: 2rem 0;
 }
 
 .main-content blockquote {
     font-size: 0.9rem;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     line-height: 28px;
     padding: 3rem 1.5rem;
     border-left: 6px solid burlywood;
@@ -124,7 +122,6 @@
 }
 
 .all-comments h3 {
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     padding-bottom: 2rem;
 }
 
@@ -152,14 +149,12 @@
 
 .avatar-comments h4 {
     margin-right: 347px;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-size: 16px;
     margin-bottom: 10px;
 }
 
 .comments-para {
     padding: 0 5% 0 0;
-    /* font-family: verdana; */
     font-size: 14px;
     line-height: 24px;
     text-align: left;
@@ -169,13 +164,12 @@
     display: inline-block;
     padding-bottom: 0.5rem;
     margin: 0;
-    /* font-family: verdana; */
     font-size: 14px;
     line-height: 24px;
 }
 
 .reply-btn {
-    /* font-family: verdana; */
+ 
     font-size: 14px;
     text-decoration: none;
     color: #010101;
@@ -208,7 +202,6 @@
 }
 
 .post-comments {
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     margin-bottom: 2.5rem;
 }
 
@@ -231,7 +224,6 @@
 }
 
 .text-area textarea {
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     width: 325px;
     padding: 10px;
     border: 1px solid #cccccc;
@@ -247,7 +239,6 @@
     border: 1px solid burlywood;
     border-radius: 4px;
     font-size: 0.8rem;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-weight: bold;
     padding: 1.2rem 2.5rem;
     text-decoration: none;
@@ -335,20 +326,18 @@
 
 .recent-text p {
     font-size: 0.8rem;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
     margin-bottom: 0.5rem;
     margin-left: 7rem;
 }
 
 .recent-text li {
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     display: inline;
     font-size: 0.7rem;
 }
 
 .recent-tag {
     text-align: center;
-
 
 }
 
@@ -363,7 +352,7 @@
     text-align: left;
     width: 26%;
     list-style-type: none;
-    ;
+    
 }
 
 
@@ -376,10 +365,8 @@
     color: #222222;
     border-radius: 6px;
     text-decoration: none;
-    /* font-family: verdana; */
     font-size: 14px;
     margin: 0.5rem 0;
-
 }
 
 .recent-tag ul li a:hover {
@@ -403,7 +390,7 @@
 }
 
 .contact-details {
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    
     display: inline-block;
     text-align: left;
 
@@ -446,7 +433,6 @@
 
 .footer-description {
     font-size: 0.8rem;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     text-align: left;
     line-height: 30px;
 }
@@ -490,7 +476,6 @@
 }
 
 .copy-right {
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     position: relative;
     width: 100%;
     background-color: #000;
@@ -634,8 +619,6 @@
     }
 
     .recent-post h3 {
-
-
         margin-bottom: 2rem;
     }
 
@@ -708,7 +691,7 @@
 
 }
 
-/* media query tablet view */
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
 
@@ -947,7 +930,6 @@
     }
 }
 
-/* media query ntablet view */
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
 
     .blog-img {
@@ -1005,13 +987,11 @@
     .main-content p {
         font-size: 0.9rem;
         line-height: 28px;
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         margin: 2rem 0;
     }
     
     .main-content blockquote {
         font-size: 0.9rem;
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         line-height: 28px;
         padding: 3rem 1.5rem;
         border-left: 6px solid burlywood;
@@ -1022,7 +1002,6 @@
     }
     
     .all-comments h3 {
-        /* font-family: Georgia, 'Times New Roman', Times, serif; */
         padding-bottom: 2rem;
     }
     
@@ -1050,14 +1029,12 @@
     
     .avatar-comments h4 {
         margin-right: 347px;
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         font-size: 16px;
         margin-bottom: 10px;
     }
     
     .comments-para {
         padding: 0 5% 0 0;
-        /* font-family: verdana; */
         font-size: 14px;
         line-height: 24px;
         text-align: left;
@@ -1067,13 +1044,11 @@
         display: inline-block;
         padding-bottom: 0.5rem;
         margin: 0;
-        /* font-family: verdana; */
         font-size: 14px;
         line-height: 24px;
     }
     
     .reply-btn {
-        /* font-family: verdana; */
         font-size: 14px;
         text-decoration: none;
         color: #010101;
@@ -1106,7 +1081,6 @@
     }
     
     .post-comments {
-        /* font-family: Georgia, 'Times New Roman', Times, serif; */
         margin-bottom: 2.5rem;
     }
     
@@ -1116,7 +1090,6 @@
     }
     
     .leave-input {
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         width: 325px;
         height: 50px;
         margin: 1rem 0;
@@ -1129,7 +1102,6 @@
     }
     
     .text-area textarea {
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         width: 325px;
         padding: 10px;
         border: 1px solid #cccccc;
@@ -1145,7 +1117,6 @@
         border: 1px solid burlywood;
         border-radius: 4px;
         font-size: 0.8rem;
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         font-weight: bold;
         padding: 1.2rem 2.5rem;
         text-decoration: none;
@@ -1233,25 +1204,20 @@
     
     .recent-text p {
         font-size: 0.8rem;
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         margin-bottom: 0.5rem;
         margin-left: 7rem;
     }
     
     .recent-text li {
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         display: inline;
         font-size: 0.7rem;
     }
     
     .recent-tag {
         text-align: center;
-    
-    
     }
     
     .recent-tag ul {
-    
         margin-left: 2rem;
     }
     
@@ -1261,7 +1227,7 @@
         text-align: left;
         width: 26%;
         list-style-type: none;
-        ;
+        
     }
     
     
@@ -1274,7 +1240,6 @@
         color: #222222;
         border-radius: 6px;
         text-decoration: none;
-        /* font-family: verdana; */
         font-size: 14px;
         margin: 0.5rem 0;
     
@@ -1301,10 +1266,8 @@
     }
     
     .contact-details {
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         display: inline-block;
         text-align: left;
-    
     }
     
     .fas {
@@ -1344,7 +1307,6 @@
     
     .footer-description {
         font-size: 0.8rem;
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         text-align: left;
         line-height: 30px;
     }
@@ -1388,7 +1350,6 @@
     }
     
     .copy-right {
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         position: relative;
         width: 100%;
         background-color: #000;

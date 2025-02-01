@@ -1,9 +1,7 @@
-/* top section  */
 .top-section {
     background-image: url("../images/menu_img1.jpg");
     background-size: cover;
     height: 450px;
-    /* background-attachment: fixed; */
     position: relative;
     z-index: -1;
 }
@@ -33,7 +31,6 @@
 
 }
 
-/* staff section  */
 
 #staff-section {
     text-align: center;
@@ -54,7 +51,6 @@
 
 }
 
-/* staff  */
 .staff-gallery {
     margin-top: 5rem;
     position: relative;
@@ -129,14 +125,12 @@
 
 
 
-/* media query mobile */
 @media only screen and (max-width: 480px) {
 
     .top-section {
         background-image: url("../images/menu_img1.jpg");
         background-size: cover;
         height: 250px;
-        /* background-attachment: fixed; */
         position: relative;
         z-index: -1;
     }
@@ -147,10 +141,8 @@
         font-size: 40px;
         padding-top: 6.5rem;
         text-align: center;
-
     }
 
-    /* staff section  */
 
     #staff-section {
         text-align: center;
@@ -171,7 +163,6 @@
 
     }
 
-    /* staff  */
     .staff-gallery {
         margin-top: 1rem;
         position: relative;
