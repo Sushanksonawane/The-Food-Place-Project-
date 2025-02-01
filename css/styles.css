@@ -65,12 +65,12 @@ body {
     /* border-radius: 5px; */
 }
 
-.dropdown .link:hover,
+/* .dropdown .link:hover,
 .sub-link:hover {
     background-color: #deb887;
     color: #fff;
     border-radius: 5px;
-}
+} */
 
 .dropdown i {
     padding: 0px;
