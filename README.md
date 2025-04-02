@@ -40,7 +40,8 @@ To run this project, you need a modern web browser such as Chrome, Firefox, or E
 3. Open the `index.html` file in your browser to view the project.
 
 ## 📸 Screenshots
-(Add screenshots of the project here if available)
+![project2](https://github.com/user-attachments/assets/e6b5ffaa-35f4-4f6f-9d2b-8add120e9e3d)
+
 
 ## 🎯 Future Enhancements
 - Add JavaScript for interactive features.
