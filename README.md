@@ -47,14 +47,6 @@ To run this project, you need a modern web browser such as Chrome, Firefox, or E
 - Implement a backend for dynamic content.
 - Improve accessibility and SEO.
 
-## 📞 Contact
-For any queries, reach out to me at:
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
-
-## 📝 License
-This project is open-source and available under the MIT License.
 
 ---
 Feel free to contribute, suggest improvements, or report issues. Happy coding! 🚀
